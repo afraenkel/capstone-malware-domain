@@ -1,13 +1,13 @@
 ---
 layout: page
-title: "Understanding Code Through Graphs"
+title: "Responsible AI"
 doodle: "/doodle.png"
 permalink: /
 ---
 
-Data science capstone domain of inquiry (DSC 180AB A04)
+Data science capstone domain of inquiry (DSC 180AB A05)
 
-Developed by Aaron Fraenkel, Shivam Lakhotia.
+Developed by David Danks, Jeffry Liu, Nandita Rahman, Aritra Nath, Emma Harvey, Meira Gilbert, and Rasmus Nielsen.
 
 ---
 * TOC
@@ -17,51 +17,24 @@ Developed by Aaron Fraenkel, Shivam Lakhotia.
 
 # Introduction
 
-This domain of inquiry studies the problem of understanding computer
-code through machine learning on graphs. To approach this problem, we
-will initially focus on the problem of *malware detection* in Android
-applications.
+The explosive proliferation of research around ethical AI (Artificial Intelligence) and AI trustworthiness during the last decade  reflects a rising societal awareness and desire to address potential and actual harmful impacts and consequences of AI. We introduce students to the socio-technical risks of AI fairness and explainability by examining several high-profile algorithmic discrimination debates that have sparked seminal research in this field. We will discuss the range of alternative definitions, the perspectives they represent, and metrics used to examine AI fairness, and the papers that describe the interesting yet mathematically irreconcilable relationships that interweave them. Concepts around AI-fairness will be translated into real-world applications through classroom debates from the perspectives of different disciplines and stakeholders, and by replicating the analyses from a relevant use case example. Students will conduct an independent fairness and explainability analysis on a mock model using industry recognized toolkits, with an emphasis on understanding how issues that originate in code and math eventually affect real human beings and society as a whole.
 
 In this domain, project proposals will be restricted to the following
 areas:
-* Computer Code Understanding (using a variety of techniques)
-* Data Driven Approaches to Malware and Cyber-Security
+* What does AI trustworthiness and ethics mean for different stakeholders?
+* What are the ways to think about whether or not a model is fair?
+* What are the risks of ‘black box’ algorithms, and how do we mitigate them? How is AI explainability related to fairness?
+* How do inherent fairness problems in AI models affect human beings?  
 
-This domain centers around understanding computer code as *data*. You
-will spend a significant amount of work writing parsing logic for this
-code that measures the behaviors of interest (i.e. data processing).
 
 ## Result replication (introduction to topic)
-
-The bulk of the first half of the project will focus the task of
-"computer code understanding" on the specific problem of detection
-whether given source code is Malware or a benign application. The bulk
-of the result replication will focus on static code analysis using
-machine learning on graphs, as developed in the following papers:
+To Be Announced
 * [Hindroid](https://www.cse.ust.hk/~yqsong/papers/2017-KDD-HINDROID.pdf)
 * [MaMaDroid](https://arxiv.org/pdf/1612.04433.pdf)
 
 The latter-half of Quarter 1 will introduce you to further topics,
 like graph embedding techniques and adversarial ML, to inform possible
 avenues for further research.
-
-## An initial note on ethics
-
-The ability to identify and combat Malware requires understanding how
-Malware works. Such knowledge is divorced from how it gets used by the
-practitioner; you, as the practitioner must be aware of ethical
-concerns with the usage of this knowledge and behave accordingly. In
-particular, while working with the material in this course, you must
-never engage in illegal activity related to your coursework and you
-must adhere to the code of academic integrity, as laid out in th
-syllabus.
-
-The topic of ethics will be regularly approached in this domain. For
-more reading on the ethics of teaching Malware, see this opinion
-pience [On the Growing Harm of Not Teaching
-Malware](http://www.csl.sri.com/users/neumann/cacm223.pdf) and a
-related study on [the ethics of teaching
-malware](https://www.ieee-security.org/TC/SPW2014/papers/5103a001.PDF).
 
 ---
 
@@ -72,16 +45,6 @@ week, you are responsible for doing the reading/task assigned in the
 [schedule](#schedule). Come to section prepared to ask questions about
 and discuss the results of these tasks.
 
-Each week, turn in answers to the weekly questions to Canvas. These
-questions are meant to focus your work for the week and help prepare
-you for discussion. If you have questions about your work, please ask
-them in section or office hours (I will rarely comment on your
-submission).
-
-You are responsible for the entire weekly reading/task, even if
-portions are not covered in the weekly questions. The weekly tasks are
-the building blocks for the project proposals/assignments due at the
-end of the quarter.
 
 ---
 
@@ -89,7 +52,7 @@ end of the quarter.
 
 |Week|Topic|
 |--|--|
-|1|[Introduction to Code-Understanding and Malware]({{ "weeks/01-Introduction" | absolute_url }})|
+|1|[Introduction to Ethical/Trustworthy AI]({{ "weeks/01-Introduction" | absolute_url }})|
 |2|[Data: Code Parsing, Malware]({{ "/weeks/02-Data" | absolute_url }})|
 |3|[Creating Graphs from Code; What is Malware?]({{ "/weeks/03-Android-Graphs" | absolute_url }})|
 |4|[Graph Invariants as Measurements]({{ "/weeks/04-Graph-Features" | absolute_url }})|

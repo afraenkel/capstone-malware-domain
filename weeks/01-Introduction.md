@@ -10,7 +10,7 @@ doodle: /doodle.png
 ## Topics
 
 This week's assignments will guide you through the following topics:
-* How graphs can capture/summarize code functionality.
+* 
 * How machine learning can identify malware via graphs.
 
 ## Reading
